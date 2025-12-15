@@ -55,11 +55,11 @@ const App: React.FC = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-transparent bg-clip-text bg-gradient-to-br from-white via-slate-200 to-slate-500 pb-2">
-            Get Your Tech Stack
+             Get Roasted By a Senior Engineer
           </h1>
           
           <p className="text-lg text-slate-400 max-w-xl mx-auto leading-relaxed">
-            Describe your idea. Get an opinionated, ruthless execution plan from a senior CTO.
+            Describe what you want to build. AI tells you what tools to use, what NOT to use, and the #1 mistake you'll make.
           </p>
         </div>
 
@@ -89,7 +89,7 @@ const App: React.FC = () => {
               <textarea
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
-                placeholder="I want to build a real-time collaborative whiteboard app for remote teams..."
+                placeholder="I want to build a SaaS for managing team tasks with real-time collaboration..."
                 className="w-full bg-transparent text-lg text-slate-200 placeholder-slate-500 p-6 min-h-[140px] outline-none resize-none"
               />
               <div className="bg-slate-900/50 px-4 py-3 border-t border-slate-800 flex justify-between items-center backdrop-blur-sm">
@@ -115,7 +115,7 @@ const App: React.FC = () => {
                   ) : (
                     <>
                       <Sparkles className="w-5 h-5 text-emerald-600" />
-                      <span>Generate</span>
+                      <span>Get Roasted</span>
                       <ArrowRight className="w-4 h-4" />
                     </>
                   )}
